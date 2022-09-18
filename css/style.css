@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 100px;
+    background-color: rgb(255, 255, 217);
+}
+
+.redBox:hover {
+    background-color: green;
+    scale: 1.5;
+    align-self: right;
+    position: relative;
+    align-items: right;
+    border-radius: 10%;
+    rotate: 180deg;
+}
+
+.redBox {
+    transition: background 5.0s,
+                scale 2s,
+                rotate 3s;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+};
